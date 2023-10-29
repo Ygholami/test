@@ -1,6 +1,6 @@
 Make sure you have Docker and Docker Compose installed
 
-git clone https://github.com/Ygholami/laravel.git
+git clone https://github.com/Ygholami/test.git
 
 cd in project
 
@@ -20,6 +20,9 @@ docker-compose exec -T test_app php artisan l5-swagger:generate
 
 
 //for run daily job to calculate total amount
+
+
+
 docker-compose exec -T test_app php artisan schedule:work
 
 
